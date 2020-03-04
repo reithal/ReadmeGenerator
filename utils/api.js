@@ -12,16 +12,9 @@ const api = {
     axios.get(queryUrl).then(function(res) {
       //console.log(res);
       userInfo.name = res.data.name;
-      console.log("name: "+ userInfo.name);
-
-      /*userInfo.email = res.data.map(function(user) {
-        return user.email;
-      });
+      userInfo.name = res.data.email;
+      userInfo.profileImgURL = res.data.avatar_url;
       
-      userInfo.profileImgURL = res.data.map(function(user) {
-        return user.avatar_url;
-      });
-      */
       
     }).then(function(res) {
       return userInfo;

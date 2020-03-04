@@ -30,13 +30,13 @@ function writeToFile(fileName, data) {
 
 function init() {
   
-  inquirer.prompt({
-
-      message: "Enter your GitHub username:",
-      name: "username"  
-  }).then(function({username}) {
-      const user = api.getUserData(username);
-      //console.log("const object :" + user)
+  inquirer.prompt(questions).then(function(response) {
+      const user = api.getUserData(response.username);
+      //console.log("const object :" + user);
+      let data = {...user,...response };
+      console.log("1 - " , data);
+      let markdown = generateMarkdown(data);
+      console.log("2 - " , generateMarkdown(data))
 
   })
   
