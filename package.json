@@ -1,0 +1,37 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "ReadMe File Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Mazon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "electron": "^5.0.3",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^6.3.1",
+    "open": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reithal/ReadmeGenerator.git"
+  },
+  "keywords": [
+    "api",
+    "readme",
+    "markdown",
+    "md",
+    "node",
+    "javascript",
+    "js",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/reithal/ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/reithal/ReadmeGenerator#readme"
+}
