@@ -33,7 +33,7 @@ node index.js
 
 The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
-![HowTo](http://reithal.github.io/reithal/ReadmeGenerator/assets/images/readmegenerator.gif)
+![HowTo](http://reithal.github.io/ReadmeGenerator/assets/images/readmegenerator.gif)
 
 _NOTE: Please remember to perform 'npm install' after cloning._
 
