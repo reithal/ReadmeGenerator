@@ -51,7 +51,7 @@ function init() {
       // DEBUG console.log("2 - " , markdown)
 
       // Write out file with username in it.
-      writeToFile(`readme-${user.username}.md`, markdown);
+      writeToFile(`readme-${data.username}.md`, markdown);
 
   }).catch((err) => console.log(err));
   
