@@ -1,9 +1,9 @@
 # ReadmeGenerator
 
-[!Code Size](https://img.shields.io/github/languages/code-size/reithal/ReadmeGenerator)
-[!Last Commit](https://img.shields.io/github/last-commit/reithal/ReadmeGenerator)
+![Code Size](https://img.shields.io/github/languages/code-size/reithal/ReadmeGenerator)
+![Last Commit](https://img.shields.io/github/last-commit/reithal/ReadmeGenerator)
 
-[!Follow](https://img.shields.io/github/followers/reithal?style=social)
+![Follow](https://img.shields.io/github/followers/reithal?style=social)
 
 This is a command-line application that dynamically generates a README.md from a user's input.
 
@@ -33,7 +33,7 @@ node index.js
 
 The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
-[!HowTo](http://github.com/reithal/assets/images/readmegenerator.gif)
+![HowTo](http://reithal.github.io/reithal/ReadmeGenerator/assets/images/readmegenerator.gif)
 
 _NOTE: Please remember to perform 'npm install' after cloning._
 
